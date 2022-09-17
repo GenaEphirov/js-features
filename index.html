@@ -1,0 +1,24 @@
+<script>
+  const hello = () => {
+    console.log('hello!')
+  }
+</script>
+
+<section class="container">
+  <!-- feature 1: progress bar with checkpoints -->
+  <div class="feature1">
+    <input id="progress-input">
+    <button id="progress-button">try</button>
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+    <!-- you are free to add your own checkpoints; just add attribute {bound} to your <li> element -->
+    <ul class="checkpoint-table">
+      <li bound="30" class="checkpoint-item">Checkpoint 1 - 30%</li>
+      <li bound="50" class="checkpoint-item">Checkpoint 2 - 50%</li>
+      <li bound="75" class="checkpoint-item">Checkpoint 3 - 75%</li>
+      <li bound="100" class="checkpoint-item">Checkpoint 4 - 100%</li>
+    </ul>
+  </div>
+ 
+</section>

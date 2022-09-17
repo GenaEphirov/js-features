@@ -1,0 +1,36 @@
+.container {
+  margin: 20px 50px;
+}
+
+#progress-input {
+  margin-bottom: 15px;
+}
+
+#progress-bar {
+  width: 300px;
+  height: 10px;
+  border: 3px solid green;
+  border-radius: 20px;
+}
+
+#progress-fill {
+  background-color: green;
+  height: 10px;
+  width: 50%;
+  max-width: 100%;
+}
+
+.checkpoint-table {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+
+.checkpoint-item {
+  padding: 5px;
+}
+
+.checkpoint-item.active {
+  background-color: green;
+  color: white;
+}
